@@ -43,6 +43,7 @@ public class CLIArgs {
                 }
             } catch (Exception e) {
                 System.out.println("Error parsing parameters " + e);
+                e.printStackTrace();
                 System.exit(-1);
             }
         }
