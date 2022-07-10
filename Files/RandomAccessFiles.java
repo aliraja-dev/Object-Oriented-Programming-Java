@@ -9,6 +9,9 @@ public class RandomAccessFiles {
         readFile(args[0]);
     }
 
+    /**
+     * @param args
+     */
     private static void readFile(String args) {
         try {
             RandomAccessFile raf = new RandomAccessFile(args, "rw");// Open our file with read/write access
